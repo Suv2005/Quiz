@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="first.css">
+        <title>QuizGame</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="Favicon_io/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="Favicon_io/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="Favicon_io/favicon-16x16.png">
+        <link rel="manifest" href="Favicon_io/site.webmanifest">
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="head">1-MIN-Quiz</h1>
+            <div class="quiz">
+                <div class="t">
+                    <h3 id="timer">Time:</h3>
+                    <h3 id="time">00:00</h3>
+                </div>
+               <div>
+                   <h2 id="q"></h2>
+               </div>
+               <div>
+                   <input type="radio" id="ans1" class="options" name="ans">
+                   <label id="opt1"></label>
+               </div>
+               <div>
+                   <input type="radio" id="ans2" class="options" name="ans">
+                   <label id="opt2"></label>
+                </div>
+                <div>
+                   <input type="radio" id="ans3" class="options" name="ans">
+                   <label id="opt3"></label>
+                </div>
+                <div>
+                   <input type="radio" id="ans4" class="options" name="ans">
+                   <label id="opt4"></label>
+                </div>
+
+                <div class="btn">
+                   <h2 class="myScore"></h2>
+                   <button class="button" onclick="next()" id="nxt">NEXT</button>
+                </div>
+            </div>
+        </div>
+        <script src="first.js"></script>
+    </body>
+</html>
