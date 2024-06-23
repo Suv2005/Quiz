@@ -1,0 +1,44 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    background-color: rgb(3, 59, 5);
+}
+.container{
+    width: 400px;
+    margin-left: 34%;
+    background-color: rgb(143, 167, 152);
+    margin-top: 10px;
+    height: 550px;
+    padding:10px;
+}
+.t{
+    text-align: center;
+    font-size: small;
+    background-color: black;
+    color:aliceblue;
+    width: 200px;
+}
+.head{
+    text-align:center;
+    padding: 5px;
+    color: rgb(32, 32, 58);
+}
+.quiz{
+    margin-left: 10px;
+}
+.buton{
+    text-align: center;
+    padding: auto;
+}
+.button{
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(44, 38, 78);
+    color: rgb(255, 228, 196);
+    font-size: 24px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+
+}
